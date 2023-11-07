@@ -153,11 +153,11 @@ h1{
     font-size: 50px;
 }
 .course{
-    list-style: disc;
+    list-style: none;
 }
 .list{
     position: relative;
-    right: 7vw;
+    right: 5vw;
     top: 9vh;
     font-size: larger;
     text-align: center;
