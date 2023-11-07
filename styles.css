@@ -156,6 +156,7 @@ h1{
     list-style: none;
 }
 .list{
+    list-style: none;
     position: relative;
     right: 5vw;
     top: 9vh;
