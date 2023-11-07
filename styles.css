@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: rgb(0, 0, 0);
+    
+}
+
+
+/*        nav bar      */
+
+
+header{
+   height: 12vh;
+   width: 100%;
+   
+    
+}
+
+.logo{
+     height: 13vh;
+     width: 7vw;
+     position: relative;
+     left: 2vw;
+
+     animation: rotate 5s linear  infinite ;
+}
+@keyframes rotate {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+.first{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 12vh;
+    width: 60vw;
+    position: relative;
+    left: 22vw;
+    bottom: 8vh;
+    list-style: none;
+}
+
+
+.one{
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.one:hover{
+   
+    border-bottom: 4px solid green;
+}
+
+.register{
+    height: 4vh;
+    width: 12vw;
+    background-color: green;
+    border: green;
+    position: relative;
+    left: 18vw;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 20px;
+    
+    color: white;
+    font-size: 18px;
+}
+.register:hover{
+    border-bottom: 4px solid rgb(0, 0, 0);
+}
+
+
+
+
+/*--------------HOME-------------*/
+
+
+#home{
+    height: 88vh;
+    width: 80vw;
+}
+.whatsapp{
+    position: fixed;
+    top: 83vh;
+    left: 7%;
+    height: 6.4vh;
+    width: 3.4vw;
+}
+#bis{
+    height: 11vh;
+    width: 98vw;
+    
+}
+
+
+
+.bismillah{
+  position: absolute;
+  
+ 
+  
+  animation: move 15s linear  infinite forwards;
+}
+@keyframes move {
+    0%{
+    right: 0vw;
+    }
+    100%{
+        right: 100vw;
+    }
+}
+
+#home{
+    height: calc(100vh-23vh);
+    width: 100%;
+}
+.img .quran{
+    
+     height: 95vh;
+     width: 100%;
+}
+
+
+
+
+
+
+
+/*--------------COURSES------------*/
+#courses{
+    height: 50vh;
+    width: 70vw;
+    position: relative;
+    left: 15vw;
+    top: 15vh;
+}
+
+
+h1{
+    justify-content: center;
+    text-align: center;
+    background-color: green;
+    font-size: 50px;
+}
+.course{
+    list-style: disc;
+}
+.list{
+    position: relative;
+    right: 7vw;
+    top: 9vh;
+    font-size: larger;
+    text-align: center;
+}
+.fm{
+    position: relative;
+    top: 10vh;
+    left: 5vw;
+}
+
+
+
+
+
+/*--------------admissions--------*/
+#admission{
+    height: 60vh;
+    width: 70vw;
+    position: relative;
+    left: 15vw;
+    top: 120vh;
+
+}
+.ad{
+    position: relative;
+    top: 10vh;
+}
+.q{
+    position: relative;
+    top: 10vh;
+    width: 70vw;
+}
+p{
+    text-align: center;
+    position: relative;
+    top: 15vh;
+    font-size: larger;
+}
+
+
+/*         Teacchers        */
+
+
+
+#teachers{
+    position: relative;
+    left: 15vw;
+    top: 130vh;
+    height: 40vh;
+    width: 70vw;
+}
+
+#about{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+    position: absolute;
+    top: 400vh;
+    color: white;
+    justify-content: space-evenly;
+}
+
+
+
+/*        contact us      */
+
+
+
+.contact{
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+
+    
+    font-size: xx-large;
+  
+}
+.icon{
+    margin: 7px;
+    letter-spacing: 10px;
+}
+.icon a{
+    text-decoration: none;
+    align-items: flex-start;
+    position: relative;
+    left: 4vw;
+    top: 3vh;
+    
+
+}
+.fa{
+    color: aliceblue;
+}
+.about{
+   
+    position: absolute;
+    top: 15vh;
+    left: 70vw;
+    font-size: xx-large;
+
+}
+
+
+span{
+    position: relative;
+    top: 56vh;
+    left: 45vw;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .one{
+        display: none;
+    }
+
+.logo{
+    width: 25vw;
+}
+.register{
+    width: 50vw;
+}
+.img .quran{
+    
+    height: 50vh;
+    width: 100.8vw;
+    position: relative;
+    bottom: 5vh;
+}
+.whatsapp{
+    width: 12vw;
+    
+    bottom: 300vh;
+    position: relative;
+    display: none;
+
+
+}
+.bismillah{
+    height: 6vh;
+   
+
+}
+#courses{
+    height: 100vh;
+    width: 100vw;
+   border: 2px solid black;
+   position: relative;
+   left: 0vh;
+   bottom: 10vh;
+}
+
+.list{
+    position: relative;
+    top: 3vh;
+    left: 1vw;
+    list-style: none;
+}
+.fm{
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+    left: 0vh;
+}
+
+#admission{
+    height: 60vh;
+    width: 70vw;
+    position: relative;
+    left: 15vw;
+    top: 10vh;
+
+}
+
+#teachers{
+    position: relative;
+    top: 50vh;
+    
+    height: 40vh;
+    width: 70vw;
+}
+.ustani{
+position: relative;
+top: 5vh;
+}
+
+
+#about{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(37, 36, 36);
+    position: absolute;
+    top: 370vh;
+    color: white;
+    justify-content: space-evenly;
+    
+}
+address{
+    font-size: medium;
+}
+h3{
+    font-size: large;
+}
+
+
+
+
+
+p{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
